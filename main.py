@@ -9,7 +9,7 @@ with st.form("form"):
 
 
 # Connect to Deta Base with your Data Key
-deta = Deta(st.secrets["b0rfq3yafm7_WXxFdaeewNUnEYANHpuQCLMWAD52uq1c"])
+deta = Deta(st.secrets["data_key"])
 
 # Create a new database "example-db"
 # If you need a new database, just use another name.
